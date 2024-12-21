@@ -1,0 +1,43 @@
+body{
+    background-color: var(--bgc);
+}
+.section-form {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 24px;
+}
+
+.section-form h1 {
+    text-align: center;
+    color:var(--txt)
+}
+.contact-form {
+    display: flex;
+    width: 50%;
+    margin: auto;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: space-between;
+}
+
+.contact-form input,.contact-form textarea{
+    height: 40px;
+    background-color: transparent;
+    border: 1px solid var(--txt);
+    border-radius: 8px;
+}
+.contact-form-btn {
+    float: right;
+    padding: 12px 50px;
+    cursor: pointer;
+    border: 0;
+    color: #fff;
+    background: var(--hbgc);
+    border-radius: 8px;
+}
+.contact-form-btn:hover {
+    background: var(--hcolor);
+}

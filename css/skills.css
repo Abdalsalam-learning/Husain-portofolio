@@ -1,0 +1,73 @@
+body{
+    background-color: var(--bgc);
+}
+.skills-section{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.skills{
+    display: flex;
+    width: 100%;
+    gap: 16px;
+    flex-direction: column;
+}
+.skills-section .card,.skills-section .project{
+    padding: 16px;
+    background: #cbcbcb;
+    border-radius: 8px;
+}
+.skills-section .card .bar{
+    height: 8px;
+    width: 100%;
+    background: var(--bgc);
+    border-radius: 4px;
+
+}
+.skills-section .card .bar .pro{
+    height: 100%;
+    background-color: var(--txt);
+    border-radius: 4px;
+}
+.one{
+    width:100%
+}
+.two{
+    width:60%
+}
+.three{
+    width:20%;
+}
+.projects{
+    margin: 80px 00;
+    display: flex;
+    width: 100%;
+    gap: 16px;
+    flex-direction: column;
+}
+.skills-section .project{
+    display: flex;
+    justify-content: flex-start;
+    gap: 16px;
+}
+.skills-section .project .pic{
+    height: 200px;
+}
+.skills-section .project .pic img {
+    height: 100%;
+}
+.skills-section .project .content{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.skills-section .project .content a{
+    padding: 16px;
+    background: var(--hcolor);
+    text-decoration: none;
+    color: #fff;
+    border-radius: 8px;
+    width: fit-content;
+}

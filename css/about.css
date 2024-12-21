@@ -1,0 +1,40 @@
+body{
+    background-color:var(--bgc);
+}
+.about-section,.index-section{
+    min-height: 100dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    color: var(--txt); 
+}
+.about-section h1{
+    color: var(--txt);
+    font-size: 2.5em;
+    text-align: center;
+}
+.index-section .content{
+    justify-content: space-evenly;
+    width: 80vw;
+    height: 250px;
+    flex-direction: row;
+}
+.index-section .content .pic{
+    width: 40%;
+}
+.index-section .content .pic img{
+    width: 100%;
+}
+.index-section .content .cnt{
+    width: 45%;
+}
+.index-section .content .cnt h1{
+    font-size: 4em;
+    color: #260b33;
+}
